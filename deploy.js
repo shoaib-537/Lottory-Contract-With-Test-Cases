@@ -3,8 +3,8 @@ const Web3 = require("web3");
 const { interface, bytecode } = require("./compile");
 
 const provider = new HDWalletProvider(
-  "business gentle nurse column quote office idea tree ladder prepare brand they",
-  "https://sepolia.infura.io/v3/c807ebe81f394eb0822c4c3a1597ce4c"
+  "Add seed phrase",
+  "URL for infura to deploy"
 );
 
 const web3 = new Web3(provider);
